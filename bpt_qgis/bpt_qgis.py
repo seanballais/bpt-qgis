@@ -24,6 +24,7 @@
 import os
 import sys
 
+import pylibbpt as bpt
 from qgis.PyQt.QtCore import QSettings, QTranslator, QCoreApplication
 from qgis.PyQt.QtGui import QIcon
 from qgis.PyQt.QtWidgets import QAction
@@ -183,9 +184,8 @@ class BPTQGIS:
 
     def run(self):
         """Run method that performs all the real work"""
-        version_info = sys.version_info
-        print(f'Python Version: {version_info.major}.{version_info.minor}')
-        print(f'Python Executable: {str(sys.executable)}')
+        ga = bpt.GA()
+        print(ga.getCurrentRunGenerationNumber())
 
         # Create the dialog with elements (after translation) and keep reference
         # Only create GUI ONCE in callback, so that it will only load when the plugin is started

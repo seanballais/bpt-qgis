@@ -1,0 +1,3 @@
+[submodule "libs/libbpt"]
+	path = libs/libbpt
+	url = git@github.com:seanballais/libbpt.git

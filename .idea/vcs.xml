@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/libbpt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/libbpt/libs/corex-math" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/libbpt/libs/corex-math/libs/corex-utils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/libbpt/libs/corex-utils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/libbpt/libs/pybind11" vcs="Git" />
   </component>
 </project>
